@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    body {
+       
+        background-image: url(bandeira.jpg);
+        background-size:cover;
+        background-position: center;
+        display: flex;
+        height: 100vh; 
+        margin: 0; 
+    }
+
+        
+    
+    p{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        padding-top: 100px;
+        transform: translate(-50%, -50%); 
+        font-size: 20px; 
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 2px 2px 4px;
+        color: #000000;
+        font-weight: normal 
+    }
+
+    
+    .img,.img2,.img3{
+        
+        width: 300px; 
+        height: 200px; 
+        padding: 5px;
+        border-radius: 10%;
+        position: relative; 
+        top: 500px; 
+        left: 400px;
+    } 
+    
+img{
+    border: 9px solid rgb(54, 175, 6);
+}
+
+.img2{
+    border: 9px solid rgb(255, 255, 255);
+}
+
+.img3{
+    border: 9px solid rgb(255, 0, 0);
+}
+
+ul{
+
+    list-style-type: none;
+    display: flex;                  
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    gap: 10px;                      
+    font-size: 20px;
+    position: absolute;              
+    left: 900px;  
+    padding-top: 19px;           
+    top: 20px;  
+    
+}
+a{
+
+    
+    color: rgb(255, 255, 255);
+    background-color:  #ff0000;
+    border: 2px outset;
+    padding: 10px;
+    list-style-type: none;
+    width: 200px;
+    border-radius: 29px;
+    text-decoration: none;
+   
+
+ 
+} 
+h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: "Rye", serif;
+    font-size: 60px; 
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-weight: normal
+}
+
